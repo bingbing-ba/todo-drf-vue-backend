@@ -240,7 +240,22 @@
 
 16. 나는 settings.py의 `ALLOWED_HOSTS` 를 그냥 `*`로 다 설정해 줬는데, 필요하다면 vue의 배포 url만 적어주면 거기서만 요청할 수 있을까? cors라 아닐 수도 있을까?.. 잘 모르겠다 나중에 해봐야 알듯.
 
+17. `Debug=False`를 해주면 그 `api_view`가 해주는 화면이 안 보일 줄 알았는데, 그래도 보이네여 안보이게끔 세팅할 수 있을텐데, 그냥 여기까지..ㅎㅎ
 
+18. 최종 url: https://bingbingba-todo-drf.herokuapp.com/api/v1/todo/  장고 저거 트레일링 슬래쉬 진짜 볼때마다 맘에 안듬
+
+    
+
+#### 2. 프론트엔드
+
+1. 아직 미완성 된 기능이 많지만 crud는 되니까 일단 배포부터 하기로. base url을 바꿔주자.
+
+2. github에다가 업로드.
+3. netlify에서 해당 리포로 배포하기 선택.
+4. 나는 yarn 을 썼으므로 build command는 `yarn build` publish directory는 `dist`이다.
+5. 디플로이!
+6. 프론트 배포 너무 쉽다 진짜..
+7. 최종 url: https://reverent-bohr-43f0b0.netlify.app/
 
 
 
